@@ -1,0 +1,69 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap github.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:10 UTC
+Nmap scan report for github.com (140.82.114.4)
+Host is up (0.016s latency).
+rDNS record for 140.82.114.4: lb-140-82-114-4-iad.github.com
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+9418/tcp open  git
+
+Nmap done: 1 IP address (1 host up) scanned in 17.83 seconds
+
+
+
+
+
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 23 gblearn.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:11 UTC
+Nmap scan report for gblearn.com (108.163.161.66)
+Host is up (0.0091s latency).
+
+PORT   STATE  SERVICE
+23/tcp closed telnet
+
+Nmap done: 1 IP address (1 host up) scanned in 0.54 seconds
+
+
+
+
+
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 10-100 hotmail.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:12 UTC
+Nmap scan report for hotmail.com (204.79.197.212)
+Host is up (0.011s latency).
+rDNS record for 204.79.197.212: a-0010.a-msedge.net
+Not shown: 89 filtered ports
+PORT   STATE  SERVICE
+53/tcp closed domain
+80/tcp open   http
+
+Nmap done: 1 IP address (1 host up) scanned in 2.46 seconds
+
+
+
+
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -f fb.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:12 UTC
+Nmap scan report for fb.com (31.13.80.36)
+Host is up (0.00046s latency).
+Other addresses for fb.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+843/tcp  closed unknown
+5222/tcp closed xmpp-client
+
+Nmap done: 1 IP address (1 host up) scanned in 17.32 seconds
+

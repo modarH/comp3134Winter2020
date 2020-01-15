@@ -1,0 +1,11 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# ping 159.203.13.170 -w 5
+PING 159.203.13.170 (159.203.13.170) 56(84) bytes of data.
+64 bytes from 159.203.13.170: icmp_seq=1 ttl=64 time=0.043 ms
+64 bytes from 159.203.13.170: icmp_seq=2 ttl=64 time=0.075 ms
+64 bytes from 159.203.13.170: icmp_seq=3 ttl=64 time=0.087 ms
+64 bytes from 159.203.13.170: icmp_seq=4 ttl=64 time=0.074 ms
+64 bytes from 159.203.13.170: icmp_seq=5 ttl=64 time=0.074 ms
+
+--- 159.203.13.170 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4075ms
+rtt min/avg/max/mdev = 0.043/0.070/0.087/0.017 ms

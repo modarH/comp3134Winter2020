@@ -1,0 +1,29 @@
+instagram.com
+IP Address: 52.73.184.234
+
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn - Google Maps
+
+
+fb.com
+
+IP Address: 31.13.71.36
+
+Geolocation: IE (Ireland), N/A, N/A, N/A N/A - Google Maps
+
+snapchat.com
+
+IP Address: 216.239.34.21
+
+Geolocation: US (United States), CA, California, 94608 Emeryville - Google Maps
+
+twitter.com
+
+IP Address: 104.244.42.129
+
+Geolocation: US (United States), CA, California, 94103 San Francisco - Google Maps
+
+gmail.com
+
+IP Address: 172.217.10.69
+
+Geolocation: US (United States), CA, California, 94043 Mountain View - Google Maps

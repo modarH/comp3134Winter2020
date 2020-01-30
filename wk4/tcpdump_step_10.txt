@@ -1,0 +1,34 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+20:13:50.295013 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 1890729346:1890729454, ack 1854540653, win 313, length 108
+20:13:50.295123 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 108:144, ack 1, win 313, length 36
+20:13:50.295225 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 144:252, ack 1, win 313, length 108
+20:13:50.295303 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 252:288, ack 1, win 313, length 36
+20:13:50.297434 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 288:468, ack 1, win 313, length 180
+20:13:50.297561 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 468:504, ack 1, win 313, length 36
+20:13:50.297713 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 504:660, ack 1, win 313, length 156
+20:13:50.297800 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 660:696, ack 1, win 313, length 36
+20:13:50.297908 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 696:852, ack 1, win 313, length 156
+20:13:50.298333 IP 198.96.85.163.2511 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 288, win 4536, length 0
+20:13:50.298368 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 852:1464, ack 1, win 313, length 612
+20:13:50.298519 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 1464:1620, ack 1, win 313, length 156
+20:13:50.298601 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 1620:1656, ack 1, win 313, length 36
+20:13:50.298704 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 1656:1812, ack 1, win 313, length 156
+20:13:50.298884 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 1848:2004, ack 1, win 313, length 156
+20:13:50.299062 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 2040:2188, ack 1, win 313, length 148
+20:13:50.299247 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 2224:2380, ack 1, win 313, length 156
+20:13:50.300795 IP 198.96.85.163.2511 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 852, win 4539, length 0
+20:13:50.300834 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 2380:3608, ack 1, win 313, length 1228
+20:13:50.300978 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 3608:3756, ack 1, win 313, length 148
+20:13:50.301063 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 3756:3792, ack 1, win 313, length 36
+20:13:50.301168 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 3792:3956, ack 1, win 313, length 164
+20:13:50.301245 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 3956:3992, ack 1, win 313, length 36
+20:13:50.301347 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 3992:4156, ack 1, win 313, length 164
+20:13:50.301438 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 4156:4192, ack 1, win 313, length 36
+20:13:50.301615 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 4192:4348, ack 1, win 313, length 156
+20:13:50.301707 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 4348:4384, ack 1, win 313, length 36
+^C
+27 packets captured
+36 packets received by filter
+3 packets dropped by kernel

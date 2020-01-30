@@ -1,0 +1,11 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 dst 104.31.68.66
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+20:23:40.175866 IP lamp-s-1vcpu-1gb-tor1-01 > 104.31.68.66: ICMP echo request, id 29634, seq 24, length 64
+20:23:41.199899 IP lamp-s-1vcpu-1gb-tor1-01 > 104.31.68.66: ICMP echo request, id 29634, seq 25, length 64
+20:23:42.223989 IP lamp-s-1vcpu-1gb-tor1-01 > 104.31.68.66: ICMP echo request, id 29634, seq 26, length 64
+20:23:43.247923 IP lamp-s-1vcpu-1gb-tor1-01 > 104.31.68.66: ICMP echo request, id 29634, seq 27, length 64
+^C
+4 packets captured
+4 packets received by filter
+0 packets dropped by kernel

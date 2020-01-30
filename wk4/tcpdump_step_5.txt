@@ -1,0 +1,57 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+20:01:15.854438 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 1888804722:1888804830, ack 1854530077, win 292, length 108
+        0x0000:  fe00 0000 0101 f68e a965 a48e 0800 4510  .........e....E.
+        0x0010:  0094 668e 4000 4006 0a4d 9fcb 0daa c660  ..f.@.@..M.....`
+        0x0020:  55a3 0016 09cf 7094 df72 6e89 e21d 5018  U.....p..rn...P.
+        0x0030:  0124 c9ff 0000 6e2d 3bc0 cfc7 974b 88b0  .$....n-;....K..
+        0x0040:  89b3 cb7a 8575 7995 00ae 2025 59ae 663b  ...z.uy....%Y.f;
+        0x0050:  30a1 1c96 c3ef b9dc 2165 ba8d e55d b30f  0.......!e...]..
+        0x0060:  52d8 35dc 1e02 f11d b019 9809 4d99 a017  R.5.........M...
+        0x0070:  8c79 6301 8d7c 3fe9 a1b5 ee2a afe4 6513  .yc..|?....*..e.
+        0x0080:  8990 a9c3 a5f1 abd1 2fa9 9e6a 30e9 086c  ......../..j0..l
+        0x0090:  81e3 419f cd1a 235c b7f1 da17 7339 4f86  ..A...#\....s9O.
+        0x00a0:  f940                                     .@
+20:01:15.854535 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 108:144, ack 1, win 292, length 36
+        0x0000:  fe00 0000 0101 f68e a965 a48e 0800 4510  .........e....E.
+        0x0010:  004c 668f 4000 4006 0a94 9fcb 0daa c660  .Lf.@.@........`
+        0x0020:  55a3 0016 09cf 7094 dfde 6e89 e21d 5018  U.....p...n...P.
+        0x0030:  0124 c9b7 0000 e9ae 79be bf43 f9ef 0e8b  .$......y..C....
+        0x0040:  4e15 a970 ea98 206d 07c7 4444 e85c 4bf4  N..p...m..DD.\K.
+        0x0050:  4e25 b291 b257 c9c1 3db5                 N%...W..=.
+20:01:15.854630 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 144:252, ack 1, win 292, length 108
+        0x0000:  fe00 0000 0101 f68e a965 a48e 0800 4510  .........e....E.
+        0x0010:  0094 6690 4000 4006 0a4b 9fcb 0daa c660  ..f.@.@..K.....`
+        0x0020:  55a3 0016 09cf 7094 e002 6e89 e21d 5018  U.....p...n...P.
+        0x0030:  0124 c9ff 0000 3bcc 0332 0c3f 6522 ba9b  .$....;..2.?e"..
+        0x0040:  e12c e4db 065d 31c7 70fb de87 312b a73f  .,...]1.p...1+.?
+        0x0050:  d840 a314 bfd9 3dd2 0382 570a 02ed d87d  .@....=...W....}
+        0x0060:  f4f6 0300 5e42 7ca1 4123 4154 22d7 9e77  ....^B|.A#AT"..w
+        0x0070:  d43a 2940 4469 5ccf 8350 99b0 8e35 ee85  .:)@Di\..P...5..
+        0x0080:  edc6 0c09 de46 4f7e 0435 7484 f9c0 dbac  .....FO~.5t.....
+        0x0090:  81ba 0cb0 f17f c503 0564 cbfe c654 1c99  .........d...T..
+        0x00a0:  e4c9                                     ..
+20:01:15.854704 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 252:288, ack 1, win 292, length 36
+        0x0000:  fe00 0000 0101 f68e a965 a48e 0800 4510  .........e....E.
+        0x0010:  004c 6691 4000 4006 0a92 9fcb 0daa c660  .Lf.@.@........`
+        0x0020:  55a3 0016 09cf 7094 e06e 6e89 e21d 5018  U.....p..nn...P.
+        0x0030:  0124 c9b7 0000 1445 0bb0 2fee e826 18e2  .$.....E../..&..
+        0x0040:  55d3 efcc 68b9 465a 9624 6ba6 45a3 d3fa  U...h.FZ.$k.E...
+        0x0050:  d245 5ba2 9119 cbfa 8a30                 .E[......0
+20:01:15.856655 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.2511: Flags [P.], seq 288:468, ack 1, win 292, length 180
+        0x0000:  fe00 0000 0101 f68e a965 a48e 0800 4510  .........e....E.
+        0x0010:  00dc 6692 4000 4006 0a01 9fcb 0daa c660  ..f.@.@........`
+        0x0020:  55a3 0016 09cf 7094 e092 6e89 e21d 5018  U.....p...n...P.
+        0x0030:  0124 ca47 0000 665c 8751 dfb3 3713 4256  .$.G..f\.Q..7.BV
+        0x0040:  6ff0 5c9a eac9 2e8f b41d bd66 a8ad ae91  o.\........f....
+        0x0050:  6fe0 cde0 7d42 a177 2675 7140 5d5d 9a12  o...}B.w&uq@]]..
+        0x0060:  69af 6407 a36d a14d 3278 7e63 5b90 8be6  i.d..m.M2x~c[...
+        0x0070:  b7f4 58ac 9f18 1a32 5043 8efa f609 52c8  ..X....2PC....R.
+        0x0080:  f132 db92 9470 49c4 320a aa6d 934e 323c  .2...pI.2..m.N2<
+        0x0090:  ffab f60e d619 8cba ad18 6d8e a88a 71a2  ..........m...q.
+        0x00a0:  e0d8 3a43 0afb f7e6 bc1e d97e 0e53 7f15  ..:C.......~.S..
+        0x00b0:  de10 7c0b 888d ed7c b9a8 68c0 5429 6345  ..|....|..h.T)cE
+        0x00c0:  db8f 27f5 ca51 f31d 7aeb 8892 8971 a8a3  ..'..Q..z....q..
+        0x00d0:  2f06 452d 1104 9856 7b2e 18e6 fffb f1cd  /.E-...V{.......
+        0x00e0:  7cef 0667 76d1 a638 4a24                 |..gv..8J$
